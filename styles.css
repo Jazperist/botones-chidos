@@ -1,0 +1,31 @@
+#cotorro {
+    width: auto;
+    border-radius: 5px;
+    color:aliceblue;
+    background-color: black;
+    padding: 5px 10px 8px 10px;
+    position: relative;
+}
+
+button {
+    animation-name: background-color;
+    animation-duration: 5000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes background-color {
+    0% {
+        background-color: aqua;
+        top: 0px;
+    }
+
+    50%{
+        background-color: green;
+        top: 50px;
+    }
+    
+    100%{
+        background-color: #4791d0;
+        top: 0px;
+    }
+}
